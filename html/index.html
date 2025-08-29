@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <!-- ---------- LOGIN ---------- -->
+  <div id="login" class="login-wrap">
+    <form id="login-form" class="card" autocomplete="off" novalidate>
+      <h2>Вхід</h2>
+      <div class="field">
+        <label class="label" for="email">Email</label>
+        <input id="email" class="input" type="email" placeholder="name@example.com" required />
+        <div id="email-err" class="error">Введіть коректний email</div>
+      </div>
+      <div class="field">
+        <label class="label" for="password">Пароль</label>
+        <input id="password" class="input" type="password" placeholder="Не менше 6 символів" required />
+        <div id="pass-err" class="error">Пароль має бути ≥ 6 символів</div>
+      </div>
+      <button class="btn" type="submit">Увійти</button>
+    </form>
+  </div>
+
+  <!-- ---------- APP ---------- -->
+  <button class="menu-toggle" aria-label="Меню">☰</button>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">Dashboard</div>
+    <ul class="menu">
+      <li><a href="#todo" data-target="todo" class="active">ToDo</a></li>
+      <li><a href="#analytics" data-target="analytics">Analytics</a></li>
+      <li><a href="#people" data-target="people">People</a></li>
+      <li><a href="#products" data-target="products">Products</a></li>
+      <li><a href="#settings" data-target="settings">Settings</a></li>
+      <li><a href="#" id="logout" class="logout">Вийти</a></li>
+    </ul>
+  </aside>
+
+  <header class="topbar">
+    <div class="search"><input type="text" placeholder="Пошук…"></div>
+    <label class="theme-switch" title="Тема">
+      <input id="theme-toggle" type="checkbox" />
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <main class="main" id="app">
+    <!-- ToDo -->
+    <section id="todo" class="section active">
+      <div class="to-do">
+        <h1>Today</h1>
+        <div class="grid">
+          <div class="col">
+            <h3>DESIGN</h3>
+            <ul class="task-container" data-category="DESIGN"></ul>
+          </div>
+          <div class="col">
+            <h3>PERSONAL</h3>
+            <ul class="task-container" data-category="PERSONAL"></ul>
+          </div>
+          <div class="col">
+            <h3>HOUSE</h3>
+            <ul class="task-container" data-category="HOUSE"></ul>
+          </div>
+        </div>
+
+        <div class="add-bar">
+          <input id="task-input" type="text" placeholder="Write a task…" />
+          <select id="task-cat">
+            <option value="DESIGN">DESIGN</option>
+            <option value="PERSONAL">PERSONAL</option>
+            <option value="HOUSE">HOUSE</option>
+          </select>
+          <button id="add-task" class="add-btn" type="button">Add</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="analytics" class="section">
+      <h2>Analytics</h2>
+      
+    </section>
+    <section id="people" class="section">
+      <h2>People</h2>
+      <p class="muted">Тут користувачі.</p>
+    </section>
+    <section id="products" class="section">
+      <h2>Products</h2>
+      <p class="muted">Тут продукти.</p>
+    </section>
+    <section id="settings" class="section">
+      <h2>Settings</h2>
+      <p class="muted">Тут налаштування.</p>
+    </section>
+  </main>
+
+  <script src="/scripts/script.js"></script>
+</body>
+
+</html>

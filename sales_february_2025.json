@@ -1,0 +1,1804 @@
+{
+  "sales": [
+    {
+      "id": 1,
+      "date": "2025-02-11",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 108,
+      "isLead": false,
+      "amount": 1733
+    },
+    {
+      "id": 2,
+      "date": "2025-02-10",
+      "manager": "Шевченко",
+      "product": "Монітор Samsung",
+      "customerId": 119,
+      "isLead": true,
+      "amount": 150
+    },
+    {
+      "id": 3,
+      "date": "2025-02-27",
+      "manager": "Ковальчук",
+      "product": "Клавіатура Logitech",
+      "customerId": 142,
+      "isLead": false,
+      "amount": 1147
+    },
+    {
+      "id": 4,
+      "date": "2025-02-07",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 136,
+      "isLead": false,
+      "amount": 1855
+    },
+    {
+      "id": 5,
+      "date": "2025-02-01",
+      "manager": "Іваненко",
+      "product": "Сканер HP",
+      "customerId": 144,
+      "isLead": false,
+      "amount": 906
+    },
+    {
+      "id": 6,
+      "date": "2025-02-03",
+      "manager": "Петренко",
+      "product": "Сканер HP",
+      "customerId": 123,
+      "isLead": false,
+      "amount": 1534
+    },
+    {
+      "id": 7,
+      "date": "2025-02-28",
+      "manager": "Ковальчук",
+      "product": "Сканер HP",
+      "customerId": 118,
+      "isLead": true,
+      "amount": 924
+    },
+    {
+      "id": 8,
+      "date": "2025-02-04",
+      "manager": "Петренко",
+      "product": "Навушники Sony",
+      "customerId": 128,
+      "isLead": true,
+      "amount": 1563
+    },
+    {
+      "id": 9,
+      "date": "2025-02-01",
+      "manager": "Ковальчук",
+      "product": "SSD Kingston",
+      "customerId": 116,
+      "isLead": false,
+      "amount": 109
+    },
+    {
+      "id": 10,
+      "date": "2025-02-18",
+      "manager": "Шевченко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 129,
+      "isLead": false,
+      "amount": 718
+    },
+    {
+      "id": 11,
+      "date": "2025-02-27",
+      "manager": "Ковальчук",
+      "product": "Мишка A4Tech",
+      "customerId": 149,
+      "isLead": true,
+      "amount": 1840
+    },
+    {
+      "id": 12,
+      "date": "2025-02-07",
+      "manager": "Іваненко",
+      "product": "Навушники Sony",
+      "customerId": 101,
+      "isLead": true,
+      "amount": 1005
+    },
+    {
+      "id": 13,
+      "date": "2025-02-05",
+      "manager": "Петренко",
+      "product": "Планшет Apple",
+      "customerId": 136,
+      "isLead": true,
+      "amount": 1957
+    },
+    {
+      "id": 14,
+      "date": "2025-02-10",
+      "manager": "Ковальчук",
+      "product": "Монітор Samsung",
+      "customerId": 112,
+      "isLead": false,
+      "amount": 395
+    },
+    {
+      "id": 15,
+      "date": "2025-02-14",
+      "manager": "Іваненко",
+      "product": "Сканер HP",
+      "customerId": 131,
+      "isLead": true,
+      "amount": 1916
+    },
+    {
+      "id": 16,
+      "date": "2025-02-26",
+      "manager": "Іваненко",
+      "product": "Мишка A4Tech",
+      "customerId": 115,
+      "isLead": false,
+      "amount": 1896
+    },
+    {
+      "id": 17,
+      "date": "2025-02-15",
+      "manager": "Петренко",
+      "product": "Навушники Sony",
+      "customerId": 146,
+      "isLead": false,
+      "amount": 710
+    },
+    {
+      "id": 18,
+      "date": "2025-02-02",
+      "manager": "Ковальчук",
+      "product": "Смартфон Xiaomi",
+      "customerId": 116,
+      "isLead": false,
+      "amount": 1883
+    },
+    {
+      "id": 19,
+      "date": "2025-02-13",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 147,
+      "isLead": true,
+      "amount": 1067
+    },
+    {
+      "id": 20,
+      "date": "2025-02-13",
+      "manager": "Ковальчук",
+      "product": "Принтер Canon",
+      "customerId": 132,
+      "isLead": true,
+      "amount": 1750
+    },
+    {
+      "id": 21,
+      "date": "2025-02-21",
+      "manager": "Петренко",
+      "product": "Навушники Sony",
+      "customerId": 148,
+      "isLead": false,
+      "amount": 1188
+    },
+    {
+      "id": 22,
+      "date": "2025-02-17",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 131,
+      "isLead": true,
+      "amount": 1006
+    },
+    {
+      "id": 23,
+      "date": "2025-02-09",
+      "manager": "Петренко",
+      "product": "Планшет Apple",
+      "customerId": 148,
+      "isLead": false,
+      "amount": 836
+    },
+    {
+      "id": 24,
+      "date": "2025-02-12",
+      "manager": "Шевченко",
+      "product": "Планшет Apple",
+      "customerId": 126,
+      "isLead": false,
+      "amount": 392
+    },
+    {
+      "id": 25,
+      "date": "2025-02-04",
+      "manager": "Петренко",
+      "product": "Принтер Canon",
+      "customerId": 113,
+      "isLead": true,
+      "amount": 1910
+    },
+    {
+      "id": 26,
+      "date": "2025-02-19",
+      "manager": "Іваненко",
+      "product": "Мишка A4Tech",
+      "customerId": 149,
+      "isLead": true,
+      "amount": 1049
+    },
+    {
+      "id": 27,
+      "date": "2025-02-11",
+      "manager": "Шевченко",
+      "product": "Планшет Apple",
+      "customerId": 122,
+      "isLead": false,
+      "amount": 427
+    },
+    {
+      "id": 28,
+      "date": "2025-02-20",
+      "manager": "Іваненко",
+      "product": "Мишка A4Tech",
+      "customerId": 146,
+      "isLead": false,
+      "amount": 380
+    },
+    {
+      "id": 29,
+      "date": "2025-02-18",
+      "manager": "Петренко",
+      "product": "Навушники Sony",
+      "customerId": 124,
+      "isLead": true,
+      "amount": 1744
+    },
+    {
+      "id": 30,
+      "date": "2025-02-24",
+      "manager": "Шевченко",
+      "product": "Навушники Sony",
+      "customerId": 133,
+      "isLead": false,
+      "amount": 1983
+    },
+    {
+      "id": 31,
+      "date": "2025-02-17",
+      "manager": "Ковальчук",
+      "product": "Мишка A4Tech",
+      "customerId": 135,
+      "isLead": true,
+      "amount": 932
+    },
+    {
+      "id": 32,
+      "date": "2025-02-08",
+      "manager": "Ковальчук",
+      "product": "Монітор Samsung",
+      "customerId": 115,
+      "isLead": false,
+      "amount": 1800
+    },
+    {
+      "id": 33,
+      "date": "2025-02-01",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 122,
+      "isLead": true,
+      "amount": 115
+    },
+    {
+      "id": 34,
+      "date": "2025-02-09",
+      "manager": "Ковальчук",
+      "product": "Клавіатура Logitech",
+      "customerId": 126,
+      "isLead": false,
+      "amount": 1799
+    },
+    {
+      "id": 35,
+      "date": "2025-02-03",
+      "manager": "Іваненко",
+      "product": "Принтер Canon",
+      "customerId": 140,
+      "isLead": true,
+      "amount": 1704
+    },
+    {
+      "id": 36,
+      "date": "2025-02-05",
+      "manager": "Ковальчук",
+      "product": "Клавіатура Logitech",
+      "customerId": 105,
+      "isLead": true,
+      "amount": 536
+    },
+    {
+      "id": 37,
+      "date": "2025-02-27",
+      "manager": "Іваненко",
+      "product": "Клавіатура Logitech",
+      "customerId": 137,
+      "isLead": false,
+      "amount": 642
+    },
+    {
+      "id": 38,
+      "date": "2025-02-11",
+      "manager": "Ковальчук",
+      "product": "Ноутбук Lenovo",
+      "customerId": 132,
+      "isLead": false,
+      "amount": 1526
+    },
+    {
+      "id": 39,
+      "date": "2025-02-16",
+      "manager": "Петренко",
+      "product": "Монітор Samsung",
+      "customerId": 115,
+      "isLead": true,
+      "amount": 349
+    },
+    {
+      "id": 40,
+      "date": "2025-02-18",
+      "manager": "Іваненко",
+      "product": "Планшет Apple",
+      "customerId": 118,
+      "isLead": true,
+      "amount": 1468
+    },
+    {
+      "id": 41,
+      "date": "2025-02-18",
+      "manager": "Шевченко",
+      "product": "Принтер Canon",
+      "customerId": 115,
+      "isLead": false,
+      "amount": 1243
+    },
+    {
+      "id": 42,
+      "date": "2025-02-08",
+      "manager": "Іваненко",
+      "product": "Планшет Apple",
+      "customerId": 127,
+      "isLead": false,
+      "amount": 949
+    },
+    {
+      "id": 43,
+      "date": "2025-02-03",
+      "manager": "Іваненко",
+      "product": "Принтер Canon",
+      "customerId": 104,
+      "isLead": false,
+      "amount": 1356
+    },
+    {
+      "id": 44,
+      "date": "2025-02-09",
+      "manager": "Іваненко",
+      "product": "Принтер Canon",
+      "customerId": 128,
+      "isLead": false,
+      "amount": 733
+    },
+    {
+      "id": 45,
+      "date": "2025-02-05",
+      "manager": "Іваненко",
+      "product": "Монітор Samsung",
+      "customerId": 112,
+      "isLead": false,
+      "amount": 470
+    },
+    {
+      "id": 46,
+      "date": "2025-02-13",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 123,
+      "isLead": false,
+      "amount": 690
+    },
+    {
+      "id": 47,
+      "date": "2025-02-01",
+      "manager": "Ковальчук",
+      "product": "Принтер Canon",
+      "customerId": 127,
+      "isLead": false,
+      "amount": 1063
+    },
+    {
+      "id": 48,
+      "date": "2025-02-26",
+      "manager": "Петренко",
+      "product": "Навушники Sony",
+      "customerId": 147,
+      "isLead": false,
+      "amount": 421
+    },
+    {
+      "id": 49,
+      "date": "2025-02-12",
+      "manager": "Петренко",
+      "product": "Навушники Sony",
+      "customerId": 102,
+      "isLead": false,
+      "amount": 1987
+    },
+    {
+      "id": 50,
+      "date": "2025-02-15",
+      "manager": "Петренко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 141,
+      "isLead": false,
+      "amount": 703
+    },
+    {
+      "id": 51,
+      "date": "2025-02-15",
+      "manager": "Іваненко",
+      "product": "SSD Kingston",
+      "customerId": 132,
+      "isLead": true,
+      "amount": 1343
+    },
+    {
+      "id": 52,
+      "date": "2025-02-09",
+      "manager": "Петренко",
+      "product": "Мишка A4Tech",
+      "customerId": 120,
+      "isLead": false,
+      "amount": 910
+    },
+    {
+      "id": 53,
+      "date": "2025-02-15",
+      "manager": "Іваненко",
+      "product": "Клавіатура Logitech",
+      "customerId": 116,
+      "isLead": true,
+      "amount": 679
+    },
+    {
+      "id": 54,
+      "date": "2025-02-24",
+      "manager": "Ковальчук",
+      "product": "Ноутбук Lenovo",
+      "customerId": 124,
+      "isLead": false,
+      "amount": 228
+    },
+    {
+      "id": 55,
+      "date": "2025-02-22",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 135,
+      "isLead": true,
+      "amount": 1699
+    },
+    {
+      "id": 56,
+      "date": "2025-02-20",
+      "manager": "Петренко",
+      "product": "Сканер HP",
+      "customerId": 148,
+      "isLead": false,
+      "amount": 905
+    },
+    {
+      "id": 57,
+      "date": "2025-02-16",
+      "manager": "Іваненко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 106,
+      "isLead": true,
+      "amount": 878
+    },
+    {
+      "id": 58,
+      "date": "2025-02-16",
+      "manager": "Іваненко",
+      "product": "Клавіатура Logitech",
+      "customerId": 147,
+      "isLead": false,
+      "amount": 863
+    },
+    {
+      "id": 59,
+      "date": "2025-02-20",
+      "manager": "Іваненко",
+      "product": "Монітор Samsung",
+      "customerId": 100,
+      "isLead": false,
+      "amount": 1588
+    },
+    {
+      "id": 60,
+      "date": "2025-02-07",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 132,
+      "isLead": false,
+      "amount": 621
+    },
+    {
+      "id": 61,
+      "date": "2025-02-22",
+      "manager": "Іваненко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 116,
+      "isLead": true,
+      "amount": 300
+    },
+    {
+      "id": 62,
+      "date": "2025-02-10",
+      "manager": "Петренко",
+      "product": "Клавіатура Logitech",
+      "customerId": 116,
+      "isLead": false,
+      "amount": 321
+    },
+    {
+      "id": 63,
+      "date": "2025-02-10",
+      "manager": "Ковальчук",
+      "product": "Сканер HP",
+      "customerId": 130,
+      "isLead": false,
+      "amount": 1350
+    },
+    {
+      "id": 64,
+      "date": "2025-02-20",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 132,
+      "isLead": true,
+      "amount": 732
+    },
+    {
+      "id": 65,
+      "date": "2025-02-05",
+      "manager": "Шевченко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 128,
+      "isLead": false,
+      "amount": 1218
+    },
+    {
+      "id": 66,
+      "date": "2025-02-01",
+      "manager": "Петренко",
+      "product": "Мишка A4Tech",
+      "customerId": 138,
+      "isLead": true,
+      "amount": 433
+    },
+    {
+      "id": 67,
+      "date": "2025-02-11",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 124,
+      "isLead": true,
+      "amount": 982
+    },
+    {
+      "id": 68,
+      "date": "2025-02-14",
+      "manager": "Ковальчук",
+      "product": "Сканер HP",
+      "customerId": 106,
+      "isLead": false,
+      "amount": 1041
+    },
+    {
+      "id": 69,
+      "date": "2025-02-18",
+      "manager": "Петренко",
+      "product": "Планшет Apple",
+      "customerId": 145,
+      "isLead": false,
+      "amount": 612
+    },
+    {
+      "id": 70,
+      "date": "2025-02-19",
+      "manager": "Петренко",
+      "product": "Монітор Samsung",
+      "customerId": 118,
+      "isLead": false,
+      "amount": 1885
+    },
+    {
+      "id": 71,
+      "date": "2025-02-28",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 143,
+      "isLead": false,
+      "amount": 1949
+    },
+    {
+      "id": 72,
+      "date": "2025-02-04",
+      "manager": "Іваненко",
+      "product": "Планшет Apple",
+      "customerId": 124,
+      "isLead": false,
+      "amount": 271
+    },
+    {
+      "id": 73,
+      "date": "2025-02-19",
+      "manager": "Іваненко",
+      "product": "Навушники Sony",
+      "customerId": 134,
+      "isLead": false,
+      "amount": 1984
+    },
+    {
+      "id": 74,
+      "date": "2025-02-06",
+      "manager": "Іваненко",
+      "product": "Планшет Apple",
+      "customerId": 129,
+      "isLead": false,
+      "amount": 126
+    },
+    {
+      "id": 75,
+      "date": "2025-02-25",
+      "manager": "Ковальчук",
+      "product": "Планшет Apple",
+      "customerId": 109,
+      "isLead": false,
+      "amount": 1872
+    },
+    {
+      "id": 76,
+      "date": "2025-02-18",
+      "manager": "Шевченко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 123,
+      "isLead": true,
+      "amount": 1569
+    },
+    {
+      "id": 77,
+      "date": "2025-02-14",
+      "manager": "Петренко",
+      "product": "Сканер HP",
+      "customerId": 108,
+      "isLead": false,
+      "amount": 1634
+    },
+    {
+      "id": 78,
+      "date": "2025-02-11",
+      "manager": "Шевченко",
+      "product": "Навушники Sony",
+      "customerId": 149,
+      "isLead": false,
+      "amount": 1021
+    },
+    {
+      "id": 79,
+      "date": "2025-02-09",
+      "manager": "Шевченко",
+      "product": "Монітор Samsung",
+      "customerId": 115,
+      "isLead": true,
+      "amount": 147
+    },
+    {
+      "id": 80,
+      "date": "2025-02-08",
+      "manager": "Іваненко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 129,
+      "isLead": false,
+      "amount": 1274
+    },
+    {
+      "id": 81,
+      "date": "2025-02-05",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 126,
+      "isLead": false,
+      "amount": 1088
+    },
+    {
+      "id": 82,
+      "date": "2025-02-24",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 125,
+      "isLead": false,
+      "amount": 716
+    },
+    {
+      "id": 83,
+      "date": "2025-02-08",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 136,
+      "isLead": true,
+      "amount": 1328
+    },
+    {
+      "id": 84,
+      "date": "2025-02-28",
+      "manager": "Шевченко",
+      "product": "Принтер Canon",
+      "customerId": 131,
+      "isLead": true,
+      "amount": 1246
+    },
+    {
+      "id": 85,
+      "date": "2025-02-20",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 110,
+      "isLead": true,
+      "amount": 1118
+    },
+    {
+      "id": 86,
+      "date": "2025-02-20",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 145,
+      "isLead": false,
+      "amount": 1369
+    },
+    {
+      "id": 87,
+      "date": "2025-02-02",
+      "manager": "Шевченко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 142,
+      "isLead": false,
+      "amount": 655
+    },
+    {
+      "id": 88,
+      "date": "2025-02-10",
+      "manager": "Шевченко",
+      "product": "Навушники Sony",
+      "customerId": 107,
+      "isLead": false,
+      "amount": 1114
+    },
+    {
+      "id": 89,
+      "date": "2025-02-24",
+      "manager": "Петренко",
+      "product": "Мишка A4Tech",
+      "customerId": 141,
+      "isLead": false,
+      "amount": 1852
+    },
+    {
+      "id": 90,
+      "date": "2025-02-17",
+      "manager": "Шевченко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 113,
+      "isLead": true,
+      "amount": 357
+    },
+    {
+      "id": 91,
+      "date": "2025-02-08",
+      "manager": "Ковальчук",
+      "product": "Мишка A4Tech",
+      "customerId": 108,
+      "isLead": false,
+      "amount": 1706
+    },
+    {
+      "id": 92,
+      "date": "2025-02-23",
+      "manager": "Петренко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 118,
+      "isLead": false,
+      "amount": 1642
+    },
+    {
+      "id": 93,
+      "date": "2025-02-18",
+      "manager": "Шевченко",
+      "product": "Планшет Apple",
+      "customerId": 113,
+      "isLead": true,
+      "amount": 169
+    },
+    {
+      "id": 94,
+      "date": "2025-02-09",
+      "manager": "Шевченко",
+      "product": "Принтер Canon",
+      "customerId": 125,
+      "isLead": true,
+      "amount": 590
+    },
+    {
+      "id": 95,
+      "date": "2025-02-20",
+      "manager": "Іваненко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 108,
+      "isLead": false,
+      "amount": 875
+    },
+    {
+      "id": 96,
+      "date": "2025-02-24",
+      "manager": "Шевченко",
+      "product": "Навушники Sony",
+      "customerId": 125,
+      "isLead": true,
+      "amount": 243
+    },
+    {
+      "id": 97,
+      "date": "2025-02-19",
+      "manager": "Іваненко",
+      "product": "Клавіатура Logitech",
+      "customerId": 125,
+      "isLead": true,
+      "amount": 847
+    },
+    {
+      "id": 98,
+      "date": "2025-02-28",
+      "manager": "Шевченко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 110,
+      "isLead": true,
+      "amount": 523
+    },
+    {
+      "id": 99,
+      "date": "2025-02-07",
+      "manager": "Іваненко",
+      "product": "SSD Kingston",
+      "customerId": 148,
+      "isLead": false,
+      "amount": 1295
+    },
+    {
+      "id": 100,
+      "date": "2025-02-13",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 123,
+      "isLead": true,
+      "amount": 657
+    },
+    {
+      "id": 101,
+      "date": "2025-02-24",
+      "manager": "Іваненко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 141,
+      "isLead": false,
+      "amount": 523
+    },
+    {
+      "id": 102,
+      "date": "2025-02-24",
+      "manager": "Іваненко",
+      "product": "Сканер HP",
+      "customerId": 146,
+      "isLead": false,
+      "amount": 1783
+    },
+    {
+      "id": 103,
+      "date": "2025-02-04",
+      "manager": "Іваненко",
+      "product": "SSD Kingston",
+      "customerId": 119,
+      "isLead": false,
+      "amount": 568
+    },
+    {
+      "id": 104,
+      "date": "2025-02-06",
+      "manager": "Шевченко",
+      "product": "Монітор Samsung",
+      "customerId": 121,
+      "isLead": true,
+      "amount": 1100
+    },
+    {
+      "id": 105,
+      "date": "2025-02-13",
+      "manager": "Іваненко",
+      "product": "Мишка A4Tech",
+      "customerId": 115,
+      "isLead": false,
+      "amount": 225
+    },
+    {
+      "id": 106,
+      "date": "2025-02-13",
+      "manager": "Іваненко",
+      "product": "SSD Kingston",
+      "customerId": 119,
+      "isLead": false,
+      "amount": 165
+    },
+    {
+      "id": 107,
+      "date": "2025-02-14",
+      "manager": "Петренко",
+      "product": "Монітор Samsung",
+      "customerId": 149,
+      "isLead": false,
+      "amount": 785
+    },
+    {
+      "id": 108,
+      "date": "2025-02-01",
+      "manager": "Петренко",
+      "product": "Сканер HP",
+      "customerId": 134,
+      "isLead": true,
+      "amount": 1764
+    },
+    {
+      "id": 109,
+      "date": "2025-02-21",
+      "manager": "Ковальчук",
+      "product": "Мишка A4Tech",
+      "customerId": 120,
+      "isLead": false,
+      "amount": 1142
+    },
+    {
+      "id": 110,
+      "date": "2025-02-03",
+      "manager": "Петренко",
+      "product": "Принтер Canon",
+      "customerId": 128,
+      "isLead": false,
+      "amount": 276
+    },
+    {
+      "id": 111,
+      "date": "2025-02-26",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 126,
+      "isLead": false,
+      "amount": 459
+    },
+    {
+      "id": 112,
+      "date": "2025-02-22",
+      "manager": "Шевченко",
+      "product": "Планшет Apple",
+      "customerId": 110,
+      "isLead": false,
+      "amount": 1425
+    },
+    {
+      "id": 113,
+      "date": "2025-02-06",
+      "manager": "Шевченко",
+      "product": "Принтер Canon",
+      "customerId": 116,
+      "isLead": true,
+      "amount": 1550
+    },
+    {
+      "id": 114,
+      "date": "2025-02-09",
+      "manager": "Петренко",
+      "product": "Планшет Apple",
+      "customerId": 146,
+      "isLead": false,
+      "amount": 1243
+    },
+    {
+      "id": 115,
+      "date": "2025-02-20",
+      "manager": "Шевченко",
+      "product": "Клавіатура Logitech",
+      "customerId": 120,
+      "isLead": false,
+      "amount": 779
+    },
+    {
+      "id": 116,
+      "date": "2025-02-25",
+      "manager": "Петренко",
+      "product": "Клавіатура Logitech",
+      "customerId": 133,
+      "isLead": false,
+      "amount": 482
+    },
+    {
+      "id": 117,
+      "date": "2025-02-08",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 127,
+      "isLead": false,
+      "amount": 1416
+    },
+    {
+      "id": 118,
+      "date": "2025-02-03",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 101,
+      "isLead": false,
+      "amount": 1723
+    },
+    {
+      "id": 119,
+      "date": "2025-02-18",
+      "manager": "Петренко",
+      "product": "Клавіатура Logitech",
+      "customerId": 122,
+      "isLead": false,
+      "amount": 686
+    },
+    {
+      "id": 120,
+      "date": "2025-02-27",
+      "manager": "Петренко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 105,
+      "isLead": true,
+      "amount": 1871
+    },
+    {
+      "id": 121,
+      "date": "2025-02-24",
+      "manager": "Ковальчук",
+      "product": "Принтер Canon",
+      "customerId": 140,
+      "isLead": false,
+      "amount": 789
+    },
+    {
+      "id": 122,
+      "date": "2025-02-26",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 113,
+      "isLead": false,
+      "amount": 1315
+    },
+    {
+      "id": 123,
+      "date": "2025-02-17",
+      "manager": "Ковальчук",
+      "product": "SSD Kingston",
+      "customerId": 103,
+      "isLead": false,
+      "amount": 423
+    },
+    {
+      "id": 124,
+      "date": "2025-02-20",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 105,
+      "isLead": false,
+      "amount": 1369
+    },
+    {
+      "id": 125,
+      "date": "2025-02-05",
+      "manager": "Шевченко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 123,
+      "isLead": false,
+      "amount": 1484
+    },
+    {
+      "id": 126,
+      "date": "2025-02-18",
+      "manager": "Іваненко",
+      "product": "Мишка A4Tech",
+      "customerId": 121,
+      "isLead": false,
+      "amount": 311
+    },
+    {
+      "id": 127,
+      "date": "2025-02-07",
+      "manager": "Ковальчук",
+      "product": "Планшет Apple",
+      "customerId": 112,
+      "isLead": true,
+      "amount": 1588
+    },
+    {
+      "id": 128,
+      "date": "2025-02-24",
+      "manager": "Петренко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 139,
+      "isLead": false,
+      "amount": 1359
+    },
+    {
+      "id": 129,
+      "date": "2025-02-17",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 112,
+      "isLead": false,
+      "amount": 1746
+    },
+    {
+      "id": 130,
+      "date": "2025-02-22",
+      "manager": "Шевченко",
+      "product": "Клавіатура Logitech",
+      "customerId": 126,
+      "isLead": true,
+      "amount": 955
+    },
+    {
+      "id": 131,
+      "date": "2025-02-18",
+      "manager": "Іваненко",
+      "product": "Клавіатура Logitech",
+      "customerId": 112,
+      "isLead": false,
+      "amount": 1493
+    },
+    {
+      "id": 132,
+      "date": "2025-02-21",
+      "manager": "Шевченко",
+      "product": "SSD Kingston",
+      "customerId": 149,
+      "isLead": false,
+      "amount": 469
+    },
+    {
+      "id": 133,
+      "date": "2025-02-11",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 131,
+      "isLead": false,
+      "amount": 1989
+    },
+    {
+      "id": 134,
+      "date": "2025-02-12",
+      "manager": "Шевченко",
+      "product": "Принтер Canon",
+      "customerId": 143,
+      "isLead": false,
+      "amount": 617
+    },
+    {
+      "id": 135,
+      "date": "2025-02-03",
+      "manager": "Петренко",
+      "product": "Сканер HP",
+      "customerId": 146,
+      "isLead": true,
+      "amount": 1305
+    },
+    {
+      "id": 136,
+      "date": "2025-02-16",
+      "manager": "Ковальчук",
+      "product": "Клавіатура Logitech",
+      "customerId": 141,
+      "isLead": false,
+      "amount": 1261
+    },
+    {
+      "id": 137,
+      "date": "2025-02-01",
+      "manager": "Шевченко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 105,
+      "isLead": true,
+      "amount": 505
+    },
+    {
+      "id": 138,
+      "date": "2025-02-18",
+      "manager": "Шевченко",
+      "product": "Навушники Sony",
+      "customerId": 107,
+      "isLead": true,
+      "amount": 421
+    },
+    {
+      "id": 139,
+      "date": "2025-02-10",
+      "manager": "Ковальчук",
+      "product": "Клавіатура Logitech",
+      "customerId": 102,
+      "isLead": true,
+      "amount": 1140
+    },
+    {
+      "id": 140,
+      "date": "2025-02-22",
+      "manager": "Шевченко",
+      "product": "Клавіатура Logitech",
+      "customerId": 128,
+      "isLead": false,
+      "amount": 271
+    },
+    {
+      "id": 141,
+      "date": "2025-02-17",
+      "manager": "Петренко",
+      "product": "Клавіатура Logitech",
+      "customerId": 116,
+      "isLead": false,
+      "amount": 812
+    },
+    {
+      "id": 142,
+      "date": "2025-02-03",
+      "manager": "Петренко",
+      "product": "Навушники Sony",
+      "customerId": 141,
+      "isLead": false,
+      "amount": 554
+    },
+    {
+      "id": 143,
+      "date": "2025-02-12",
+      "manager": "Іваненко",
+      "product": "Клавіатура Logitech",
+      "customerId": 148,
+      "isLead": false,
+      "amount": 742
+    },
+    {
+      "id": 144,
+      "date": "2025-02-23",
+      "manager": "Іваненко",
+      "product": "Принтер Canon",
+      "customerId": 143,
+      "isLead": false,
+      "amount": 1415
+    },
+    {
+      "id": 145,
+      "date": "2025-02-22",
+      "manager": "Ковальчук",
+      "product": "Мишка A4Tech",
+      "customerId": 133,
+      "isLead": false,
+      "amount": 1186
+    },
+    {
+      "id": 146,
+      "date": "2025-02-12",
+      "manager": "Шевченко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 126,
+      "isLead": true,
+      "amount": 209
+    },
+    {
+      "id": 147,
+      "date": "2025-02-16",
+      "manager": "Ковальчук",
+      "product": "Сканер HP",
+      "customerId": 140,
+      "isLead": false,
+      "amount": 1259
+    },
+    {
+      "id": 148,
+      "date": "2025-02-16",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 111,
+      "isLead": true,
+      "amount": 1210
+    },
+    {
+      "id": 149,
+      "date": "2025-02-18",
+      "manager": "Шевченко",
+      "product": "Планшет Apple",
+      "customerId": 140,
+      "isLead": true,
+      "amount": 485
+    },
+    {
+      "id": 150,
+      "date": "2025-02-05",
+      "manager": "Шевченко",
+      "product": "Монітор Samsung",
+      "customerId": 122,
+      "isLead": true,
+      "amount": 1256
+    },
+    {
+      "id": 151,
+      "date": "2025-02-10",
+      "manager": "Ковальчук",
+      "product": "Клавіатура Logitech",
+      "customerId": 122,
+      "isLead": false,
+      "amount": 903
+    },
+    {
+      "id": 152,
+      "date": "2025-02-08",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 101,
+      "isLead": false,
+      "amount": 1792
+    },
+    {
+      "id": 153,
+      "date": "2025-02-08",
+      "manager": "Ковальчук",
+      "product": "Ноутбук Lenovo",
+      "customerId": 134,
+      "isLead": false,
+      "amount": 1686
+    },
+    {
+      "id": 154,
+      "date": "2025-02-28",
+      "manager": "Ковальчук",
+      "product": "Планшет Apple",
+      "customerId": 124,
+      "isLead": true,
+      "amount": 1612
+    },
+    {
+      "id": 155,
+      "date": "2025-02-10",
+      "manager": "Іваненко",
+      "product": "SSD Kingston",
+      "customerId": 136,
+      "isLead": false,
+      "amount": 1082
+    },
+    {
+      "id": 156,
+      "date": "2025-02-13",
+      "manager": "Іваненко",
+      "product": "Сканер HP",
+      "customerId": 132,
+      "isLead": false,
+      "amount": 1443
+    },
+    {
+      "id": 157,
+      "date": "2025-02-06",
+      "manager": "Іваненко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 105,
+      "isLead": false,
+      "amount": 782
+    },
+    {
+      "id": 158,
+      "date": "2025-02-03",
+      "manager": "Петренко",
+      "product": "Монітор Samsung",
+      "customerId": 101,
+      "isLead": false,
+      "amount": 1013
+    },
+    {
+      "id": 159,
+      "date": "2025-02-06",
+      "manager": "Іваненко",
+      "product": "Принтер Canon",
+      "customerId": 116,
+      "isLead": false,
+      "amount": 182
+    },
+    {
+      "id": 160,
+      "date": "2025-02-25",
+      "manager": "Шевченко",
+      "product": "Навушники Sony",
+      "customerId": 121,
+      "isLead": true,
+      "amount": 1029
+    },
+    {
+      "id": 161,
+      "date": "2025-02-24",
+      "manager": "Петренко",
+      "product": "Принтер Canon",
+      "customerId": 132,
+      "isLead": false,
+      "amount": 1547
+    },
+    {
+      "id": 162,
+      "date": "2025-02-03",
+      "manager": "Ковальчук",
+      "product": "Ноутбук Lenovo",
+      "customerId": 107,
+      "isLead": false,
+      "amount": 1028
+    },
+    {
+      "id": 163,
+      "date": "2025-02-13",
+      "manager": "Ковальчук",
+      "product": "Принтер Canon",
+      "customerId": 111,
+      "isLead": true,
+      "amount": 650
+    },
+    {
+      "id": 164,
+      "date": "2025-02-07",
+      "manager": "Шевченко",
+      "product": "Принтер Canon",
+      "customerId": 112,
+      "isLead": true,
+      "amount": 119
+    },
+    {
+      "id": 165,
+      "date": "2025-02-02",
+      "manager": "Іваненко",
+      "product": "Планшет Apple",
+      "customerId": 136,
+      "isLead": true,
+      "amount": 241
+    },
+    {
+      "id": 166,
+      "date": "2025-02-15",
+      "manager": "Шевченко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 136,
+      "isLead": true,
+      "amount": 1523
+    },
+    {
+      "id": 167,
+      "date": "2025-02-20",
+      "manager": "Ковальчук",
+      "product": "Принтер Canon",
+      "customerId": 112,
+      "isLead": true,
+      "amount": 1132
+    },
+    {
+      "id": 168,
+      "date": "2025-02-19",
+      "manager": "Шевченко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 102,
+      "isLead": false,
+      "amount": 1614
+    },
+    {
+      "id": 169,
+      "date": "2025-02-17",
+      "manager": "Ковальчук",
+      "product": "Мишка A4Tech",
+      "customerId": 142,
+      "isLead": true,
+      "amount": 1740
+    },
+    {
+      "id": 170,
+      "date": "2025-02-09",
+      "manager": "Ковальчук",
+      "product": "Принтер Canon",
+      "customerId": 103,
+      "isLead": false,
+      "amount": 100
+    },
+    {
+      "id": 171,
+      "date": "2025-02-13",
+      "manager": "Шевченко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 130,
+      "isLead": true,
+      "amount": 982
+    },
+    {
+      "id": 172,
+      "date": "2025-02-17",
+      "manager": "Шевченко",
+      "product": "Планшет Apple",
+      "customerId": 103,
+      "isLead": false,
+      "amount": 1754
+    },
+    {
+      "id": 173,
+      "date": "2025-02-27",
+      "manager": "Петренко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 143,
+      "isLead": false,
+      "amount": 1944
+    },
+    {
+      "id": 174,
+      "date": "2025-02-14",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 115,
+      "isLead": false,
+      "amount": 1430
+    },
+    {
+      "id": 175,
+      "date": "2025-02-23",
+      "manager": "Петренко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 132,
+      "isLead": false,
+      "amount": 187
+    },
+    {
+      "id": 176,
+      "date": "2025-02-21",
+      "manager": "Іваненко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 135,
+      "isLead": true,
+      "amount": 1803
+    },
+    {
+      "id": 177,
+      "date": "2025-02-05",
+      "manager": "Ковальчук",
+      "product": "SSD Kingston",
+      "customerId": 101,
+      "isLead": false,
+      "amount": 1572
+    },
+    {
+      "id": 178,
+      "date": "2025-02-22",
+      "manager": "Іваненко",
+      "product": "Монітор Samsung",
+      "customerId": 136,
+      "isLead": false,
+      "amount": 404
+    },
+    {
+      "id": 179,
+      "date": "2025-02-11",
+      "manager": "Ковальчук",
+      "product": "SSD Kingston",
+      "customerId": 101,
+      "isLead": false,
+      "amount": 1827
+    },
+    {
+      "id": 180,
+      "date": "2025-02-22",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 149,
+      "isLead": true,
+      "amount": 977
+    },
+    {
+      "id": 181,
+      "date": "2025-02-16",
+      "manager": "Петренко",
+      "product": "SSD Kingston",
+      "customerId": 135,
+      "isLead": true,
+      "amount": 1652
+    },
+    {
+      "id": 182,
+      "date": "2025-02-20",
+      "manager": "Ковальчук",
+      "product": "Мишка A4Tech",
+      "customerId": 102,
+      "isLead": true,
+      "amount": 1324
+    },
+    {
+      "id": 183,
+      "date": "2025-02-10",
+      "manager": "Іваненко",
+      "product": "SSD Kingston",
+      "customerId": 114,
+      "isLead": false,
+      "amount": 1297
+    },
+    {
+      "id": 184,
+      "date": "2025-02-26",
+      "manager": "Петренко",
+      "product": "Мишка A4Tech",
+      "customerId": 119,
+      "isLead": false,
+      "amount": 266
+    },
+    {
+      "id": 185,
+      "date": "2025-02-21",
+      "manager": "Ковальчук",
+      "product": "Сканер HP",
+      "customerId": 117,
+      "isLead": true,
+      "amount": 434
+    },
+    {
+      "id": 186,
+      "date": "2025-02-12",
+      "manager": "Петренко",
+      "product": "Мишка A4Tech",
+      "customerId": 112,
+      "isLead": false,
+      "amount": 1309
+    },
+    {
+      "id": 187,
+      "date": "2025-02-09",
+      "manager": "Шевченко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 141,
+      "isLead": true,
+      "amount": 1916
+    },
+    {
+      "id": 188,
+      "date": "2025-02-20",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 122,
+      "isLead": false,
+      "amount": 458
+    },
+    {
+      "id": 189,
+      "date": "2025-02-28",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 117,
+      "isLead": true,
+      "amount": 1836
+    },
+    {
+      "id": 190,
+      "date": "2025-02-10",
+      "manager": "Ковальчук",
+      "product": "SSD Kingston",
+      "customerId": 110,
+      "isLead": false,
+      "amount": 1265
+    },
+    {
+      "id": 191,
+      "date": "2025-02-24",
+      "manager": "Ковальчук",
+      "product": "Принтер Canon",
+      "customerId": 133,
+      "isLead": false,
+      "amount": 416
+    },
+    {
+      "id": 192,
+      "date": "2025-02-07",
+      "manager": "Петренко",
+      "product": "Принтер Canon",
+      "customerId": 100,
+      "isLead": false,
+      "amount": 80
+    },
+    {
+      "id": 193,
+      "date": "2025-02-21",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 128,
+      "isLead": false,
+      "amount": 1436
+    },
+    {
+      "id": 194,
+      "date": "2025-02-12",
+      "manager": "Іваненко",
+      "product": "Клавіатура Logitech",
+      "customerId": 123,
+      "isLead": false,
+      "amount": 1401
+    },
+    {
+      "id": 195,
+      "date": "2025-02-06",
+      "manager": "Шевченко",
+      "product": "Смартфон Xiaomi",
+      "customerId": 103,
+      "isLead": false,
+      "amount": 1931
+    },
+    {
+      "id": 196,
+      "date": "2025-02-21",
+      "manager": "Шевченко",
+      "product": "Сканер HP",
+      "customerId": 105,
+      "isLead": false,
+      "amount": 256
+    },
+    {
+      "id": 197,
+      "date": "2025-02-23",
+      "manager": "Петренко",
+      "product": "Ноутбук Lenovo",
+      "customerId": 131,
+      "isLead": false,
+      "amount": 1374
+    },
+    {
+      "id": 198,
+      "date": "2025-02-18",
+      "manager": "Шевченко",
+      "product": "Планшет Apple",
+      "customerId": 126,
+      "isLead": false,
+      "amount": 719
+    },
+    {
+      "id": 199,
+      "date": "2025-02-27",
+      "manager": "Шевченко",
+      "product": "Мишка A4Tech",
+      "customerId": 139,
+      "isLead": false,
+      "amount": 530
+    },
+    {
+      "id": 200,
+      "date": "2025-02-22",
+      "manager": "Ковальчук",
+      "product": "Навушники Sony",
+      "customerId": 109,
+      "isLead": true,
+      "amount": 845
+    }
+  ]
+}

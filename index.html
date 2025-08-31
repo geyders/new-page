@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <!-- login -->
   <div id="login" class="login-wrap">
     <form id="login-form" class="card" autocomplete="off" novalidate>
@@ -104,14 +103,15 @@
             <canvas id="repeatPurchases"></canvas>
           </div>
 
-          <div class="chart-container" data-chart-type="line">
-            <h3>Оборот по місяцях</h3>
-            <canvas id="revenue"></canvas>
-          </div>
-
           <div class="chart-container" data-chart-type="radar">
             <h3>Продажі по менеджерах</h3>
             <canvas id="salesByManager"></canvas>
+          </div>
+          
+          <!-- Додано графік обороту по місяцях -->
+          <div class="chart-container" data-chart-type="bar">
+            <h3>Оборот по місяцях</h3>
+            <canvas id="monthlyTurnover"></canvas>
           </div>
         </div>
       </div>
@@ -446,29 +446,41 @@
 
     async function loadSalesData() {
       try {
-
+        // Демо-дані з продажами за кілька місяців
         const demoData = {
           sales: [
-            { date: "2025-02-01", amount: 1200, manager: "Іван Петренко", product: "Ноутбук", isLead: true },
-            { date: "2025-02-01", amount: 800, manager: "Марія Коваль", product: "Мишка", isLead: false },
-            { date: "2025-02-02", amount: 2500, manager: "Іван Петренко", product: "Монітор", isLead: true },
-            { date: "2025-02-02", amount: 500, manager: "Олексій Сідоренко", product: "Клавіатура", isLead: true },
-            { date: "2025-02-03", amount: 1800, manager: "Марія Коваль", product: "Ноутбук", isLead: false },
-            { date: "2025-02-03", amount: 950, manager: "Олексій Сідоренко", product: "Навушники", isLead: true },
-            { date: "2025-02-04", amount: 3000, manager: "Іван Петренко", product: "Телефон", isLead: true },
-            { date: "2025-02-04", amount: 450, manager: "Марія Коваль", product: "Чохол", isLead: false },
-            { date: "2025-02-05", amount: 1200, manager: "Олексій Сідоренко", product: "Планшет", isLead: true },
-            { date: "2025-02-05", amount: 700, manager: "Іван Петренко", product: "Кабель", isLead: false },
-            { date: "2025-02-06", amount: 2100, manager: "Марія Коваль", product: "Ноутбук", isLead: true },
-            { date: "2025-02-06", amount: 850, manager: "Олексій Сідоренко", product: "Мишка", isLead: false },
-            { date: "2025-02-07", amount: 1700, manager: "Іван Петренко", product: "Монітор", isLead: true },
-            { date: "2025-02-07", amount: 400, manager: "Марія Коваль", product: "Клавіатура", isLead: false },
-            { date: "2025-02-08", amount: 3200, manager: "Олексій Сідоренко", product: "Телефон", isLead: true },
-            { date: "2025-02-08", amount: 550, manager: "Іван Петренко", product: "Чохол", isLead: false },
-            { date: "2025-02-09", amount: 1400, manager: "Марія Коваль", product: "Планшет", isLead: true },
-            { date: "2025-02-09", amount: 900, manager: "Олексій Сідоренко", product: "Навушники", isLead: true },
-            { date: "2025-02-10", amount: 2300, manager: "Іван Петренко", product: "Ноутбук", isLead: true },
-            { date: "2025-02-10", amount: 600, manager: "Марія Коваль", product: "Кабель", isLead: false }
+            { date: "2025-01-05", amount: 1200, manager: "Іван Петренко", product: "Ноутбук", isLead: true },
+            { date: "2025-01-12", amount: 800, manager: "Марія Коваль", product: "Мишка", isLead: false },
+            { date: "2025-01-18", amount: 2500, manager: "Іван Петренко", product: "Монітор", isLead: true },
+            { date: "2025-01-25", amount: 500, manager: "Олексій Сідоренко", product: "Клавіатура", isLead: true },
+            { date: "2025-02-01", amount: 1800, manager: "Марія Коваль", product: "Ноутбук", isLead: false },
+            { date: "2025-02-01", amount: 950, manager: "Олексій Сідоренко", product: "Навушники", isLead: true },
+            { date: "2025-02-02", amount: 3000, manager: "Іван Петренко", product: "Телефон", isLead: true },
+            { date: "2025-02-02", amount: 450, manager: "Марія Коваль", product: "Чохол", isLead: false },
+            { date: "2025-02-03", amount: 1200, manager: "Олексій Сідоренко", product: "Планшет", isLead: true },
+            { date: "2025-02-03", amount: 700, manager: "Іван Петренко", product: "Кабель", isLead: false },
+            { date: "2025-02-04", amount: 2100, manager: "Марія Коваль", product: "Ноутбук", isLead: true },
+            { date: "2025-02-04", amount: 850, manager: "Олексій Сідоренко", product: "Мишка", isLead: false },
+            { date: "2025-02-05", amount: 1700, manager: "Іван Петренко", product: "Монітор", isLead: true },
+            { date: "2025-02-05", amount: 400, manager: "Марія Коваль", product: "Клавіатура", isLead: false },
+            { date: "2025-02-06", amount: 3200, manager: "Олексій Сідоренко", product: "Телефон", isLead: true },
+            { date: "2025-02-06", amount: 550, manager: "Іван Петренко", product: "Чохол", isLead: false },
+            { date: "2025-02-07", amount: 1400, manager: "Марія Коваль", product: "Планшет", isLead: true },
+            { date: "2025-02-07", amount: 900, manager: "Олексій Сідоренко", product: "Навушники", isLead: true },
+            { date: "2025-02-08", amount: 2300, manager: "Іван Петренко", product: "Ноутбук", isLead: true },
+            { date: "2025-02-08", amount: 600, manager: "Марія Коваль", product: "Кабель", isLead: false },
+            { date: "2025-03-01", amount: 2800, manager: "Іван Петренко", product: "Телефон", isLead: true },
+            { date: "2025-03-05", amount: 1200, manager: "Марія Коваль", product: "Планшет", isLead: true },
+            { date: "2025-03-10", amount: 900, manager: "Олексій Сідоренко", product: "Навушники", isLead: false },
+            { date: "2025-03-15", amount: 3500, manager: "Іван Петренко", product: "Ноутбук", isLead: true },
+            { date: "2025-03-20", amount: 750, manager: "Марія Коваль", product: "Мишка", isLead: false },
+            { date: "2025-03-25", amount: 2200, manager: "Олексій Сідоренко", product: "Монітор", isLead: true },
+            { date: "2025-04-02", amount: 1800, manager: "Іван Петренко", product: "Планшет", isLead: true },
+            { date: "2025-04-07", amount: 950, manager: "Марія Коваль", product: "Навушники", isLead: false },
+            { date: "2025-04-12", amount: 4200, manager: "Олексій Сідоренко", product: "Ноутбук", isLead: true },
+            { date: "2025-04-18", amount: 650, manager: "Іван Петренко", product: "Клавіатура", isLead: false },
+            { date: "2025-04-22", amount: 3100, manager: "Марія Коваль", product: "Телефон", isLead: true },
+            { date: "2025-04-28", amount: 1250, manager: "Олексій Сідоренко", product: "Чохол", isLead: false }
           ]
         };
 
@@ -487,7 +499,6 @@
         const salesData = await loadSalesData();
         const sales = salesData.sales;
 
-
         if (!sales || sales.length === 0) {
           throw new Error('Немає даних для аналітики');
         }
@@ -503,19 +514,15 @@
     }
 
     function createCharts(sales) {
-      if (window.charts.salesPerDay) {
-        window.charts.salesPerDay.destroy();
-      }
-      if (window.charts.leadsPerDay) {
-        window.charts.leadsPerDay.destroy();
-      }
-      if (window.charts.repeatPurchases) {
-        window.charts.repeatPurchases.destroy();
-      }
-      if (window.charts.salesByManager) {
-        window.charts.salesByManager.destroy();
-      }
+      // Очищення існуючих графіків
+      Object.values(window.charts).forEach(chart => {
+        if (chart && typeof chart.destroy === 'function') {
+          chart.destroy();
+        }
+      });
+      window.charts = {};
 
+      // Графік продажів по днях
       const dailySales = {};
       sales.forEach(s => {
         dailySales[s.date] = (dailySales[s.date] || 0) + s.amount;
@@ -551,6 +558,7 @@
         });
       }
 
+      // Графік лідів по днях
       const dailyLeads = {};
       sales.forEach(s => {
         if (s.isLead) {
@@ -587,6 +595,7 @@
         });
       }
 
+      // Кругова діаграма повторних покупок
       const repeatCustomers = {};
       sales.forEach(s => {
         repeatCustomers[s.product] = (repeatCustomers[s.product] || 0) + 1;
@@ -618,6 +627,7 @@
         });
       }
 
+      // Радарна діаграма продажів по менеджерах
       const managerRevenue = {};
       sales.forEach(s => {
         managerRevenue[s.manager] = (managerRevenue[s.manager] || 0) + s.amount;
@@ -646,6 +656,53 @@
               title: {
                 display: true,
                 text: 'Продажі по менеджерах'
+              }
+            }
+          }
+        });
+      }
+
+      const monthlyTurnover = {};
+      sales.forEach(s => {
+        const date = new Date(s.date);
+        const monthYear = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}`;
+        monthlyTurnover[monthYear] = (monthlyTurnover[monthYear] || 0) + s.amount;
+      });
+
+      const sortedMonths = Object.keys(monthlyTurnover).sort();
+      const sortedMonthlyTurnover = sortedMonths.map(month => monthlyTurnover[month]);
+
+      const formattedMonths = sortedMonths.map(month => {
+        const [year, monthNum] = month.split('-');
+        const monthNames = ['Січ', 'Лют', 'Бер', 'Кві', 'Тра', 'Чер', 'Лип', 'Сер', 'Вер', 'Жов', 'Лис', 'Гру'];
+        return `${monthNames[parseInt(monthNum) - 1]} ${year}`;
+      });
+
+      if (window.Chart && document.getElementById("monthlyTurnover")) {
+        window.charts.monthlyTurnover = new Chart(document.getElementById("monthlyTurnover"), {
+          type: "bar",
+          data: {
+            labels: formattedMonths,
+            datasets: [{
+              label: "Оборот (грн)",
+              data: sortedMonthlyTurnover,
+              backgroundColor: "#8b5cf6",
+              borderColor: "#6f42c1",
+              borderWidth: 1
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: {
+                display: true,
+                text: 'Оборот по місяцях'
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true
               }
             }
           }
